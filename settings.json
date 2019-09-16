@@ -1,0 +1,16 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "Material Theme",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "update.mode": "manual",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [90],
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.activityBar.visible": true,
+}
