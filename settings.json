@@ -9,9 +9,19 @@
     "files.trimTrailingWhitespace": true,
     "update.mode": "manual",
     "editor.minimap.enabled": false,
-    "editor.rulers": [90],
+    "editor.rulers": [
+        90
+    ],
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
     "workbench.iconTheme": "vs-minimal",
     "workbench.activityBar.visible": false,
     "terminal.integrated.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderIndicators": true,
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.autoSurround": "languageDefined",
+    "editor.cursorBlinking": "blink",
 }

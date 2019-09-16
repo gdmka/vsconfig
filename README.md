@@ -1,9 +1,8 @@
-### @OSX
+### OSX
 
 ###### Default config file path
 
----
-
-/Users/*username*/Library/Application Support/Code/User
-
----
+```
+%HOME/Library/Application Support/Code/User
+```
+___
