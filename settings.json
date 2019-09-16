@@ -12,5 +12,6 @@
     "editor.rulers": [90],
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.fontSize": 13,
 }
