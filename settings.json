@@ -24,4 +24,8 @@
     "editor.autoClosingQuotes": "languageDefined",
     "editor.autoSurround": "languageDefined",
     "editor.cursorBlinking": "blink",
+    "breadcrumbs.enabled": true,
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 0.6,
+    "python.autoComplete.addBrackets": true,
 }
