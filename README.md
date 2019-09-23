@@ -1,6 +1,6 @@
-### OSX
-
 ###### Default config file path
+
+### OSX
 
 ```
 $HOME/Library/Application Support/Code/User
@@ -10,7 +10,7 @@ ___
 ### Linux
 
 ```
-Linux $HOME/.config/Code/User/
+$HOME/.config/Code/User/
 ```
 ___
 
