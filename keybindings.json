@@ -49,4 +49,9 @@
         "key": "shift+cmd+7",
         "command": "-editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
-    }]
+    },
+    {
+        "key": "cmd+f9",
+        "command": "workbench.action.quickOpenTerm"
+    }
+]
