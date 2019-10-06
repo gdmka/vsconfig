@@ -37,4 +37,8 @@
     "go.useLanguageServer": false,
     "workbench.startupEditor": "none",
     "window.newWindowDimensions": "inherit",
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.loggingLevel": "critical",
+    "explorer.confirmDelete": false,
+    "search.location": "panel",
 }
