@@ -28,7 +28,7 @@
     "editor.autoSurround": "languageDefined",
     "editor.cursorBlinking": "blink",
     "breadcrumbs.enabled": false,
-    "window.zoomLevel": 0.6,
+    "window.zoomLevel": 0.8,
     "python.autoComplete.addBrackets": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
@@ -45,4 +45,9 @@
     "extensions.ignoreRecommendations": true,
     "extensions.autoCheckUpdates": false,
     "extensions.closeExtensionDetailsOnViewChange": true,
+    "workbench.sideBar.location": "left",
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.enableAllHovers": true,
+    "debug.console.fontSize": 13,
+    "debug.openDebug": "neverOpen",
 }
