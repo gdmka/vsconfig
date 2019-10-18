@@ -7,6 +7,7 @@
     "editor.renderControlCharacters": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "editor.renderIndentGuides": true,
     "update.mode": "manual",
     "editor.minimap.enabled": false,
     "editor.tabSize": 4,
@@ -28,7 +29,6 @@
     "editor.autoSurround": "languageDefined",
     "editor.cursorBlinking": "blink",
     "breadcrumbs.enabled": false,
-    "window.zoomLevel": 0.8,
     "python.autoComplete.addBrackets": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
@@ -50,4 +50,7 @@
     "debug.enableAllHovers": true,
     "debug.console.fontSize": 13,
     "debug.openDebug": "neverOpen",
+    "workbench.list.horizontalScrolling": true,
+    "zenMode.hideLineNumbers": false,
+    "window.zoomLevel": 0.8,
 }
