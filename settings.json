@@ -56,4 +56,6 @@
     "debug.inlineValues": true,
     "workbench.list.horizontalScrolling": true,
     "go.formatTool": "goimports",
+    "rust-client.disableRustup": true,
+    "rust-client.enableMultiProjectSetup": true,
 }
