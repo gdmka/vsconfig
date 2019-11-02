@@ -53,5 +53,17 @@
     {
         "key": "cmd+f9",
         "command": "workbench.action.quickOpenTerm"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "python.buildWorkspaceSymbols"
     }
 ]
