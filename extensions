@@ -1,4 +1,5 @@
 aaron-bond.better-comments@2.0.5
+alexcvzz.vscode-sqlite@0.8.1
 astallinger.sourcetrail@0.0.2
 dracula-theme.theme-dracula@2.21.0
 EditorConfig.EditorConfig@0.14.4
@@ -6,15 +7,16 @@ Equinusocio.vsc-community-material-theme@1.4.1
 Equinusocio.vsc-material-theme@32.5.0
 equinusocio.vsc-material-theme-icons@1.1.4
 jprestidge.theme-material-theme@1.0.1
+matklad.rust-analyzer@0.2.135
 mischah.relaxed-theme@1.0.5
 ms-dotnettools.csharp@1.21.16
 ms-mssql.mssql@1.9.0
 ms-python.python@2020.3.71113
 ms-vscode.cpptools@0.27.0
 ms-vscode.Go@0.13.1
-rust-lang.rust@0.7.0
+rust-lang.rust@0.7.2
 timonwong.shellcheck@0.9.0
 vadimcn.vscode-lldb@1.5.0
 whizkydee.material-palenight-theme@1.9.7
-yzhang.markdown-all-in-one@2.7.0
-Thu Apr  9 15:25:34 +03 2020
+yzhang.markdown-all-in-one@2.8.0
+Sat Apr 18 13:10:46 +03 2020
