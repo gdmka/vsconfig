@@ -14,9 +14,10 @@ ms-mssql.mssql@1.9.0
 ms-python.python@2020.3.71113
 ms-vscode.cpptools@0.27.0
 ms-vscode.Go@0.14.1
+mtxr.sqltools@0.21.7
 rust-lang.rust@0.7.2
 timonwong.shellcheck@0.9.0
 vadimcn.vscode-lldb@1.5.0
 whizkydee.material-palenight-theme@1.9.7
 yzhang.markdown-all-in-one@2.8.0
-Sat Apr 18 16:52:19 +03 2020
+Sat May  2 12:44:04 +03 2020
