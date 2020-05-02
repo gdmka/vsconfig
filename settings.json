@@ -28,7 +28,7 @@
     "editor.autoSurround": "languageDefined",
     "editor.cursorBlinking": "blink",
     "breadcrumbs.enabled": false,
-    "python.autoComplete.addBrackets": true,
+    // "python.autoComplete.addBrackets": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "git.enabled": true,
@@ -58,4 +58,7 @@
     "rust-client.disableRustup": true,
     "rust-client.enableMultiProjectSetup": true,
     "python.dataScience.debugJustMyCode": false,
+    "workbench.settings.openDefaultKeybindings": true,
+    "editor.autoClosingOvertype": "never",
+    "explorer.confirmDragAndDrop": false,
 }
