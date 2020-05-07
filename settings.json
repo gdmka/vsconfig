@@ -61,4 +61,5 @@
     "workbench.settings.openDefaultKeybindings": true,
     "editor.autoClosingOvertype": "never",
     "explorer.confirmDragAndDrop": false,
+    "search.searchOnType": false,
 }
