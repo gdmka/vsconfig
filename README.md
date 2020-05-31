@@ -3,20 +3,20 @@
 ### OSX
 
 ```
-$HOME/Library/Application Support/Code/User
+$HOME/Library/Application Support/VSCodium/User
 ```
 ___
 
 ### Linux
 
 ```
-$HOME/.config/Code/User/
+$HOME/.config/VSCodium/User/
 ```
 ___
 
 ### Win
 
 ```
-%APPDATA%\Code\User\
+%APPDATA%\VSCodium\User\
 ```
 ___
