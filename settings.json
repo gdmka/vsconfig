@@ -120,4 +120,14 @@
             "backgroundColor": "transparent"
         }
     ],
+    "python.dataScience.jupyterCommandLineArguments": [],
+    "python.formatting.autopep8Args": [
+        "max_line_length = 120"
+    ],
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "terminal.integrated.env.windows": {},
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
+    ],
 }
