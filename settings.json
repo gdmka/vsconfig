@@ -14,7 +14,7 @@
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "editor.rulers": [
-        90
+        120
     ],
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
     "workbench.iconTheme": "vs-minimal",
