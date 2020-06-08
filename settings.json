@@ -130,4 +130,6 @@
         "--max-line-length=120",
         "--ignore=E402,F841,F401,E302,E305",
     ],
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
 }
