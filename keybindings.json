@@ -73,10 +73,6 @@
     },
     {
         "key": "cmd+\\",
-        "command": "-workbench.action.splitEditor"
-    },
-    {
-        "key": "cmd+\\",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
     },
@@ -97,5 +93,21 @@
     {
         "key": "shift+cmd+f",
         "command": "search.action.openNewEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "cmd+k cmd+=",
+        "command": "workbench.action.editorLayoutSingle"
     }
 ]
