@@ -20,14 +20,15 @@
     "workbench.iconTheme": "vs-minimal",
     "terminal.integrated.fontSize": 13,
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
+    // This parameter makes black spit error messages if true
+    "editor.formatOnPaste": false,
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.renderIndicators": true,
     "editor.autoClosingBrackets": "languageDefined",
     "editor.autoClosingQuotes": "languageDefined",
     "editor.autoSurround": "languageDefined",
     "editor.cursorBlinking": "blink",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     // "python.autoComplete.addBrackets": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
@@ -128,8 +129,15 @@
     "terminal.integrated.env.windows": {},
     "python.linting.flake8Args": [
         "--max-line-length=120",
-        "--ignore=E402,F841,F401,E302,E305",
+        "--ignore=F403,E128,E126,E123,E121, E203, E265,E501,N802,N803,N806,C901, W503"
     ],
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
+    "python.formatting.provider": "black",
+    "python.autoComplete.addBrackets": true,
+    "editor.multiCursorModifier": "alt",
+    "python.dataScience.allowLiveShare": false,
+    "python.languageServer": "Jedi",
+    "workbench.list.openMode": "doubleClick"
+    // "gitlens.remotes": null,
 }
