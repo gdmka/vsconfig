@@ -29,7 +29,6 @@
     "editor.autoSurround": "languageDefined",
     "editor.cursorBlinking": "blink",
     "breadcrumbs.enabled": true,
-    // "python.autoComplete.addBrackets": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "git.enabled": true,
