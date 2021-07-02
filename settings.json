@@ -1,7 +1,7 @@
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Solarized Dark",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "files.trimFinalNewlines": true,
@@ -151,6 +151,21 @@
     "errorLens.addNumberOfDiagnostics": true,
     "errorLens.addAnnotationTextPrefixes": true,
     "vsintellicode.sql.completionsEnabled": false,
-    "terminal.integrated.flowControl": false
+    "terminal.integrated.flowControl": false,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info"
+    ],
+    "errorLens.delay": 10,
+    "search.showLineNumbers": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.highlights.enabled": false,
     // "gitlens.remotes": null,
 }
