@@ -165,7 +165,9 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "todo-tree.general.statusBar": "tags",
     "todo-tree.highlights.enabled": false,
+    "todo-tree.general.statusBar": "tags",
+    "editor.accessibilitySupport": "off",
+    "todo-tree.tree.buttons.scanMode": true,
     // "gitlens.remotes": null,
 }
