@@ -1,28 +1,28 @@
-###### Default config file path
-
-
 ## Preferred Version 1.53.2
 ```
 https://code.visualstudio.com/updates/v1_53
 ```
+<br/>
+
+## Default config file path
 
 ### OSX
 
 ```
-$HOME/Library/Application Support/VSCodium/User
+$HOME/Library/Application Support/Code/User
 ```
 ___
 
 ### Linux
 
 ```
-$HOME/.config/VSCodium/User/
+$HOME/.config/Code/User/
 ```
 ___
 
 ### Win
 
 ```
-%APPDATA%\VSCodium\User\
+%APPDATA%\Code\User\
 ```
 ___
