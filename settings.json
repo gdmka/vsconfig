@@ -170,5 +170,8 @@
     "editor.accessibilitySupport": "off",
     "todo-tree.tree.buttons.scanMode": true,
     "python.experiments.enabled": false,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     // "gitlens.remotes": null,
 }
