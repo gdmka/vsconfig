@@ -172,7 +172,13 @@
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "workbench.colorTheme": "Palenight Operator",
-    "window.zoomLevel": 0.8,
+    "window.zoomLevel": 0,
     // "gitlens.remotes": null,
 }
