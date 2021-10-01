@@ -1,7 +1,6 @@
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "workbench.colorTheme": "Solarized Dark",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "files.trimFinalNewlines": true,
@@ -173,5 +172,7 @@
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
+    "workbench.colorTheme": "Palenight Operator",
+    "window.zoomLevel": 0.8,
     // "gitlens.remotes": null,
 }

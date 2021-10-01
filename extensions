@@ -4,12 +4,13 @@ alexcvzz.vscode-sqlite@0.13.0
 astallinger.sourcetrail@0.0.2
 dbankier.vscode-quick-select@0.2.9
 deerawan.vscode-dash@2.4.0
-dracula-theme.theme-dracula@2.22.4
+dracula-theme.theme-dracula@2.24.0
 eamodio.gitlens@11.2.1
 EditorConfig.EditorConfig@0.16.4
 Equinusocio.vsc-community-material-theme@1.4.2
 Equinusocio.vsc-material-theme@33.1.2
 equinusocio.vsc-material-theme-icons@1.2.2
+GitHub.github-vscode-theme@5.0.0
 Gruntfuggly.todo-tree@0.0.213
 jprestidge.theme-material-theme@1.0.1
 matklad.rust-analyzer@0.2.637
@@ -30,7 +31,7 @@ VisualStudioExptTeam.vscodeintellicode@1.2.14
 vscjava.vscode-java-debug@0.31.0
 vscjava.vscode-java-dependency@0.18.1
 vscjava.vscode-java-pack@0.12.1
-whizkydee.material-palenight-theme@2.0.1
+whizkydee.material-palenight-theme@2.0.2
 wmaurer.vscode-jumpy@0.3.1
 yzhang.markdown-all-in-one@3.4.0
-Fri Jul  2 12:23:19 +03 2021
+Fri Oct  1 15:29:00 +03 2021
