@@ -138,5 +138,13 @@
     {
         "key": "shift+cmd+t shift+cmd+t",
         "command": "python_tests.focus"
+    },
+    {
+        "key": "cmd+i f",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "cmd+d f",
+        "command": "editor.action.fontZoomOut"
     }
 ]
