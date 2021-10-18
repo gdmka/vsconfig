@@ -179,6 +179,6 @@
         }
     ],
     "workbench.colorTheme": "Palenight Operator",
-    "window.zoomLevel": 0,
+    "files.insertFinalNewline": true,
     // "gitlens.remotes": null,
 }

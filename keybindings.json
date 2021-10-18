@@ -146,5 +146,9 @@
     {
         "key": "cmd+d f",
         "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "cmd+d d",
+        "command": "workbench.action.toggleMultiCursorModifier"
     }
 ]
