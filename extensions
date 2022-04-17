@@ -22,9 +22,11 @@ ms-vscode.cpptools@1.4.1
 njpwerner.autodocstring@0.5.4
 oderwat.indent-rainbow@7.5.0
 redhat.java@0.76.0
+redhat.vscode-yaml@1.4.0
 rust-lang.rust@0.7.8
 shengchen.vscode-checkstyle@1.4.0
 timonwong.shellcheck@0.14.3
+unclebeast.har-viewer@0.0.1
 usernamehw.errorlens@3.2.5
 vadimcn.vscode-lldb@1.6.4
 VisualStudioExptTeam.vscodeintellicode@1.2.14
@@ -34,4 +36,4 @@ vscjava.vscode-java-pack@0.12.1
 whizkydee.material-palenight-theme@2.0.2
 wmaurer.vscode-jumpy@0.3.1
 yzhang.markdown-all-in-one@3.4.0
-Fri Oct  1 15:29:00 +03 2021
+Sun Apr 17 19:27:03 +03 2022
