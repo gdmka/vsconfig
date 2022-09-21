@@ -5,14 +5,13 @@
     "editor.renderControlCharacters": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "editor.renderIndentGuides": true,
     "update.mode": "manual",
     "editor.minimap.enabled": false,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "editor.rulers": [
-        90
+        120
     ],
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
     "workbench.iconTheme": "vs-minimal",
@@ -46,7 +45,6 @@
     "zenMode.hideLineNumbers": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.enableExperiments": false,
-    "workbench.activityBar.visible": false,
     "debug.inlineValues": true,
     "workbench.list.horizontalScrolling": true,
     "go.formatTool": "goimports",
@@ -127,7 +125,6 @@
     "python.formatting.provider": "black",
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "python.autoComplete.addBrackets": true,
-    "editor.multiCursorModifier": "alt",
     "python.languageServer": "Pylance",
     "workbench.list.openMode": "doubleClick",
     "jupyter.debugJustMyCode": false,
@@ -180,5 +177,20 @@
     ],
     "workbench.colorTheme": "Palenight Operator",
     "files.insertFinalNewline": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "jupyter.useNotebookEditor": false,
+    "redhat.telemetry.enabled": false,
+    "editor.guides.indentation": true,
+    "workbench.activityBar.visible": false,
+    "rust.crate_blacklist": [],
     // "gitlens.remotes": null,
 }
