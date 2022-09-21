@@ -45,6 +45,7 @@
     "zenMode.hideLineNumbers": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.enableExperiments": false,
+    "workbench.activityBar.visible": false,
     "debug.inlineValues": true,
     "workbench.list.horizontalScrolling": true,
     "go.formatTool": "goimports",
@@ -175,7 +176,7 @@
             "filenamePattern": "*.ipynb"
         }
     ],
-    "workbench.colorTheme": "Palenight Operator",
+    "workbench.colorTheme": "Palenight Theme",
     "files.insertFinalNewline": true,
     "todo-tree.general.tags": [
         "BUG",
@@ -190,7 +191,25 @@
     "jupyter.useNotebookEditor": false,
     "redhat.telemetry.enabled": false,
     "editor.guides.indentation": true,
-    "workbench.activityBar.visible": false,
     "rust.crate_blacklist": [],
     // "gitlens.remotes": null,
+    "editor.tokenColorCustomizations": {
+        "[Palenight Theme]": {
+            "textMateRules": [
+                {
+                    "name": "Function call",
+                    "scope": [
+                        "meta.function-call.generic.python",
+                        "punctuation.definition.arguments.begin.python",
+                        "meta.function-call.python",
+                        "meta.member.access.python",
+                        "punctuation.definition.arguments.end.python"
+                    ], /*functions()*/
+                    "settings": {
+                        "foreground": "#e26f60"
+                    }
+                }
+            ]
+        }
+    }
 }
