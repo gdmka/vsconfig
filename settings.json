@@ -1,5 +1,3 @@
-VSC stuff
-
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
@@ -221,11 +219,8 @@ VSC stuff
     },
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.editor.wrapTabs": true,
     "workbench.editor.highlightModifiedTabs": true,
     "errorLens.borderRadius": "5px",
-    "errorLens.addNumberOfDiagnostics": true,
-    "workbench.editor.tabSizing": "shrink",
     "gitlens.advanced.messages": {
         "suppressRebaseSwitchToTextWarning": true
     },
