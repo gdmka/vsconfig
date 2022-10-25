@@ -233,4 +233,3 @@
     "gitlens.views.commits.pullRequests.showForBranches": false,
     "gitlens.views.commits.pullRequests.enabled": false,
 }
-}
