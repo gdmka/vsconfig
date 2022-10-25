@@ -154,5 +154,9 @@
     {
         "key": "ctrl+f10",
         "command": "editor.debug.action.runToCursor"
+    },
+    {
+        "key": "shift+cmd+'",
+        "command": "workbench.scm.repositories.focus"
     }
 ]

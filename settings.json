@@ -196,6 +196,8 @@
     "redhat.telemetry.enabled": false,
     "editor.guides.indentation": true,
     "rust.crate_blacklist": [],
+    "files.maxMemoryForLargeFilesMB": 16384,
+    "editor.largeFileOptimizations": false,
     // "gitlens.remotes": null,
     "editor.tokenColorCustomizations": {
         "[Palenight Theme]": {
@@ -226,5 +228,9 @@
     },
     "editor.formatOnSave": true,
     "window.zoomLevel": 0.5,
-    "editor.fontLigatures": false
+    "editor.fontLigatures": false,
+    "gitlens.views.commits.showBranchComparison": false,
+    "gitlens.views.commits.pullRequests.showForBranches": false,
+    "gitlens.views.commits.pullRequests.enabled": false,
+}
 }
