@@ -158,5 +158,9 @@
     {
         "key": "shift+cmd+'",
         "command": "workbench.scm.repositories.focus"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "dockerContainers.focus"
     }
 ]
