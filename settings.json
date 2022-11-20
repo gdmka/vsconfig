@@ -232,4 +232,16 @@
     "gitlens.views.commits.showBranchComparison": false,
     "gitlens.views.commits.pullRequests.showForBranches": false,
     "gitlens.views.commits.pullRequests.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    "python.formatting.blackArgs": [
+        "-l 120"
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ]
 }
