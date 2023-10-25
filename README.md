@@ -26,3 +26,9 @@ ___
 %APPDATA%\Code\User\
 ```
 ___
+
+## Reinstall extensions back
+
+```
+xargs -n1 code --install-extension < extensions
+```
