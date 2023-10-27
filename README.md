@@ -1,6 +1,6 @@
-## Preferred Version 1.53.2
+## Preferred Version Version: 1.83.1
 ```
-https://code.visualstudio.com/updates/v1_53
+[https://code.visualstudio.com/updates/v1_83.1](https://code.visualstudio.com/updates/v1_83)
 ```
 <br/>
 
