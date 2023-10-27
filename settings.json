@@ -1,6 +1,5 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "files.trimFinalNewlines": true,
@@ -10,6 +9,7 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
+    "diffEditor.diffAlgorithm": "advanced",
     "editor.rulers": [
         120
     ],
@@ -44,8 +44,7 @@
     "zenMode.hideLineNumbers": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.enableExperiments": false,
-    "workbench.activityBar.visible": false,
-    "debug.inlineValues": true,
+    "debug.inlineValues": "on",
     "workbench.list.horizontalScrolling": true,
     "go.formatTool": "goimports",
     "rust-client.disableRustup": true,
@@ -61,7 +60,9 @@
         "list.inactiveSelectionForeground": "#AB47BC",
         "list.highlightForeground": "#AB47BC",
         "scrollbarSlider.activeBackground": "#AB47BC50",
-        "editorSuggestWidget.highlightForeground": "#AB47BC",
+        "editorSuggestWidget.highlightForeground": "#ff1e00",
+        "editorSuggestWidget.focusHighlightForeground": "#0008ff",
+        "editorSuggestWidget.selectedForeground": "#fbff00",
         "textLink.foreground": "#AB47BC",
         "progressBar.background": "#AB47BC",
         "pickerGroup.foreground": "#AB47BC",
@@ -126,12 +127,11 @@
         "--ignore=F403,E128,E126,E123,E121, E203, E265,E501,N802,N803,N806,C901, W503"
     ],
     "window.openFoldersInNewWindow": "on",
-    "window.openFilesInNewWindow": "on",
-    "python.formatting.provider": "black",
     "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "python.analysis.autoImportCompletions": true,
     "python.autoComplete.addBrackets": true,
     "python.languageServer": "Pylance",
-    "workbench.list.openMode": "doubleClick",
+    "workbench.list.openMode": "singleClick",
     "jupyter.debugJustMyCode": false,
     "jupyter.jupyterCommandLineArguments": [],
     "jupyter.allowLiveShare": false,
@@ -143,14 +143,13 @@
     "search.mode": "newEditor",
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "python.analysis.completeFunctionParens": true,
-    "errorLens.annotationPrefix": [
-        "ERROR: ",
-        "WARNING: ",
-        "INFO: ",
-        "HINT:"
+    "errorLens.severityText": [
+        "ERROR",
+        "WARNING",
+        "INFO",
+        "HINT"
     ],
-    "errorLens.addNumberOfDiagnostics": true,
-    "errorLens.addAnnotationTextPrefixes": true,
+    "errorLens.messageTemplate": "$message",
     "vsintellicode.sql.completionsEnabled": false,
     "terminal.integrated.flowControl": false,
     "errorLens.enabledDiagnosticLevels": [
@@ -158,6 +157,9 @@
         "warning",
         "info"
     ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportDeprecated": "information"
+    },
     "errorLens.delay": 10,
     "search.showLineNumbers": true,
     "files.exclude": {
@@ -174,13 +176,17 @@
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter-notebook",
-            "filenamePattern": "*.ipynb"
-        }
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
     ],
-    "workbench.colorTheme": "Palenight Theme",
     "files.insertFinalNewline": true,
     "todo-tree.general.tags": [
         "BUG",
@@ -196,28 +202,147 @@
     "redhat.telemetry.enabled": false,
     "editor.guides.indentation": true,
     "rust.crate_blacklist": [],
-    "files.maxMemoryForLargeFilesMB": 16384,
-    "editor.largeFileOptimizations": false,
-    // "gitlens.remotes": null,
     "editor.tokenColorCustomizations": {
-        "[Palenight Theme]": {
+        "[*]": {
             "textMateRules": [
                 {
                     "name": "Function call",
                     "scope": [
                         "meta.function-call.generic.python",
-                        "punctuation.definition.arguments.begin.python",
                         "meta.function-call.python",
-                        "meta.member.access.python",
-                        "punctuation.definition.arguments.end.python"
-                    ], /*functions()*/
+                    ],
                     "settings": {
-                        "foreground": "#e26f60"
+                        "foreground": "#b5645a",
+                    },
+                },
+                {
+                    "name": "Parameter variable",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "foreground": "#51b2b9",
+                        "fontStyle": "underline italic"
                     }
-                }
+                },
+                {
+                    "name": "Control Flow",
+                    "scope": [
+                        "keyword.control.flow.python"
+                    ],
+                    "settings": {
+                        "foreground": "#FFCB6B",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Item access/Self",
+                    "scope": [
+                        "meta.item-access.python",
+                        "variable.language.special.self.python",
+                        "variable.parameter.function.language.special.self.python"
+                    ],
+                    "settings": {
+                        "foreground": "#41b421",
+                    }
+                },
+                {
+                    "name": "Func params",
+                    "scope": [
+                        "variable.parameter.function.language.python"
+                    ],
+                    "settings": {
+                        "foreground": "#664bb9",
+                        "fontStyle": "italic underline"
+                    }
+                },
+                {
+                    "name": "Member access",
+                    "scope": [
+                        "meta.member.access.python",
+                    ],
+                    "settings": {
+                        "foreground": "#c443c4",
+                    }
+                },
+                {
+                    "name": "Const access",
+                    "scope": [
+                        "constant.language.python",
+                    ],
+                    "settings": {
+                        "foreground": "#807ef8",
+                    }
+                },
+                {
+                    "name": "Logical",
+                    "scope": [
+                        "keyword.operator.logical.python",
+                    ],
+                    "settings": {
+                        "foreground": "#7eabf8",
+                    }
+                },
+                {
+                    "name": "Fdef",
+                    "scope": [
+                        "storage.type.function.python",
+                        // "entity.name.function.python"
+                    ],
+                    "settings": {
+                        "foreground": "#82AAFF",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Fname",
+                    "scope": [
+                        "entity.name.function.python"
+                    ],
+                    "settings": {
+                        "foreground": "#2b6fe3",
+                    }
+                },
+                {
+                    "name": "Cdef",
+                    "scope": [
+                        "storage.type.class.python"
+                    ],
+                    "settings": {
+                        "foreground": "#C792EA",
+                    }
+                },
+                {
+                    "name": "Imp",
+                    "scope": [
+                        "keyword.control.import.python"
+                    ],
+                    "settings": {
+                        "foreground": "#c4aa41",
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Support Type",
+                    "scope": [
+                        "support.type.exception.python",
+                        "support.type.python",
+                        "support.function.builtin.python"
+                    ],
+                    "settings": {
+                        "foreground": "#89DDFF",
+                    }
+                },
+                {
+                    "name": "Self",
+                    "scope": [
+                        "variable.language.special.self.python",
+                        "variable.parameter.function.language.special.self.python"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
             ]
         }
-        // "gitlens.remotes": null,
     },
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.scrollToSwitchTabs": true,
@@ -227,21 +352,16 @@
         "suppressRebaseSwitchToTextWarning": true
     },
     "editor.formatOnSave": true,
-    "window.zoomLevel": 0.5,
     "editor.fontLigatures": false,
-    "gitlens.views.commits.showBranchComparison": false,
-    "gitlens.views.commits.pullRequests.showForBranches": false,
-    "gitlens.views.commits.pullRequests.enabled": false,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
-    "git.confirmSync": false,
-    "git.ignoreRebaseWarning": true,
-    "python.formatting.blackArgs": [
-        "-l 120"
-    ],
-    "python.sortImports.args": [
-        "--profile",
-        "black"
-    ]
+    "editor.fontSize": 13,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Night Owl",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.startupPrompt": "never",
+    "workbench.activityBar.visible": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.logLevel": "Warning",
+    "window.zoomLevel": 0.5,
 }
