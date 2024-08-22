@@ -363,5 +363,31 @@
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.logLevel": "Warning",
+    "gitlens.views.searchAndCompare.files.layout": "list",
+    "gitlens.views.searchAndCompare.avatars": false,
+    "errorLens.lintFilePaths": {
+        "eslint": [
+            "**/*.eslintrc.{js,cjs,yaml,yml,json}",
+            "**/*package.json"
+        ],
+        "Stylelint": [
+            "**/*.stylelintrc",
+            "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
+            "**/*stylelint.config.{cjs,js}",
+            "**/*package.json"
+        ]
+    },
+    "flake8.args": [
+        "--max-line-length=120"
+    ],
+    "editor.unicodeHighlight.nonBasicASCII": false,
     "window.zoomLevel": 0.5,
+    "tabby.config.telemetry": true,
+    "tabby.endpoint": "http://localhost:8080",
+    "tabby.settings.advanced": {
+
+        "inlineCompletion.triggerMode": "automatic"
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.defaultFormatter": "ms-python.black-formatter",
 }
