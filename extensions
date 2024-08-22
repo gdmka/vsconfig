@@ -1,4 +1,5 @@
 aaron-bond.better-comments@3.0.2
+ClemensPeters.format-json@1.0.3
 dbankier.vscode-quick-select@0.2.9
 dracula-theme.theme-dracula@2.24.3
 eamodio.gitlens@14.4.0
@@ -10,14 +11,16 @@ ms-python.flake8@2023.8.0
 ms-python.python@2023.18.0
 ms-python.vscode-pylance@2023.10.40
 ms-vscode-remote.remote-containers@0.315.1
+ms-vsliveshare.vsliveshare@1.0.5883
 nemesv.copy-file-name@1.2.0
 oderwat.indent-rainbow@8.3.1
 qezhu.gitlink@1.2.4
 sdras.night-owl@2.0.1
+TabbyML.vscode-tabby@1.8.2
 timonwong.shellcheck@0.34.0
 usernamehw.errorlens@3.15.0
 VisualStudioExptTeam.intellicode-api-usage-examples@0.2.8
 VisualStudioExptTeam.vscodeintellicode@1.2.30
 whizkydee.material-palenight-theme@2.0.3
 wmaurer.vscode-jumpy@0.3.1
-Fri Oct 27 19:23:55 CEST 2023
+Thu Aug 22 15:30:25 CEST 2024

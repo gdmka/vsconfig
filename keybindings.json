@@ -278,5 +278,15 @@
     {
         "key": "cmd+p d",
         "command": "editor.action.peekDeclaration"
+    },
+    {
+        "key": "cmd+p s",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
     }
 ]
