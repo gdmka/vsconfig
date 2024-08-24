@@ -19,6 +19,7 @@ nemesv.copy-file-name@1.2.0
 oderwat.indent-rainbow@8.3.1
 qezhu.gitlink@1.2.4
 redhat.vscode-yaml@1.15.0
+rubberduck.rubberduck-vscode@1.21.0
 sdras.night-owl@2.0.1
 TabbyML.vscode-tabby@1.8.2
 timonwong.shellcheck@0.34.0
@@ -27,4 +28,4 @@ VisualStudioExptTeam.intellicode-api-usage-examples@0.2.8
 VisualStudioExptTeam.vscodeintellicode@1.2.30
 whizkydee.material-palenight-theme@2.0.3
 wmaurer.vscode-jumpy@0.3.1
-Thu Aug 22 16:40:40 CEST 2024
+Sat Aug 24 12:34:26 CEST 2024

@@ -84,7 +84,7 @@
         "editor.selectionBackground": "#f1f90d39",
         "editor.findMatchBackground": "#e1ff02f7"
     },
-    "materialTheme.accent": "Purple",
+
     "better-comments.tags": [
         {
             "tag": "!",
@@ -118,12 +118,12 @@
         }
     ],
     "python.formatting.autopep8Args": [
-        "max_line_length = 120"
+        "max_line_length = 150"
     ],
     "python.linting.flake8CategorySeverity.W": "Error",
     "terminal.integrated.env.windows": {},
     "python.linting.flake8Args": [
-        "--max-line-length=120",
+        "--max-line-length=150",
         "--ignore=F403,E128,E126,E123,E121, E203, E265,E501,N802,N803,N806,C901, W503"
     ],
     "window.openFoldersInNewWindow": "on",
@@ -388,5 +388,5 @@
         "inlineCompletion.triggerMode": "automatic"
     },
     "editor.inlineSuggest.showToolbar": "always",
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "ms-python.black-formatter"
 }
