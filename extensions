@@ -4,7 +4,7 @@ continue.continue@0.8.65
 dbankier.vscode-quick-select@0.2.9
 donjayamanne.python-environment-manager@1.2.4
 dracula-theme.theme-dracula@2.24.3
-eamodio.gitlens@14.4.0
+eamodio.gitlens@16.2.0
 editorconfig.editorconfig@0.16.4
 lebster.enough-with-the-palenight@1.0.6
 ms-azuretools.vscode-docker@1.27.0
@@ -15,6 +15,7 @@ ms-python.flake8@2023.8.0
 ms-python.isort@2023.10.1
 ms-python.python@2023.18.0
 ms-python.vscode-pylance@2023.10.40
+ms-toolsai.prompty@0.1.2024060511
 ms-vscode-remote.remote-containers@0.315.1
 nemesv.copy-file-name@1.2.0
 oderwat.indent-rainbow@8.3.1
@@ -29,4 +30,4 @@ visualstudioexptteam.intellicode-api-usage-examples@0.2.8
 visualstudioexptteam.vscodeintellicode@1.2.30
 whizkydee.material-palenight-theme@2.0.3
 wmaurer.vscode-jumpy@0.3.1
-Tue Dec 17 18:29:11 CET 2024
+Sun Jan 19 14:46:32 CET 2025
