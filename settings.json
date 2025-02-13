@@ -36,7 +36,6 @@
     "extensions.ignoreRecommendations": true,
     "extensions.autoCheckUpdates": false,
     "extensions.closeExtensionDetailsOnViewChange": true,
-    "workbench.sideBar.location": "left",
     "debug.allowBreakpointsEverywhere": true,
     "debug.enableAllHovers": true,
     "debug.console.fontSize": 13,
@@ -84,7 +83,6 @@
         "editor.selectionBackground": "#f1f90d39",
         "editor.findMatchBackground": "#e1ff02f7"
     },
-
     "better-comments.tags": [
         {
             "tag": "!",
@@ -177,11 +175,13 @@
         "files.trimTrailingWhitespace": false
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
         },
+        "ruff.organizeImports": true
     },
     "isort.args": [
         "--profile",
@@ -196,6 +196,14 @@
         "XXX",
         "[ ]",
         "[x]"
+    ],
+    "ruff.nativeServer": "on",
+    "ruff.lineLength": 120,
+    "ruff.lint.select": [
+        "C",
+        "E",
+        "F",
+        "W"
     ],
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
     "jupyter.useNotebookEditor": false,
@@ -381,10 +389,16 @@
     ],
     "editor.unicodeHighlight.nonBasicASCII": false,
     "window.zoomLevel": 0.5,
+    "tabby.config.telemetry": true,
+    "tabby.endpoint": "http://localhost:8080",
+    "tabby.settings.advanced": {
+        "inlineCompletion.triggerMode": "manual"
+    },
     "editor.inlineSuggest.showToolbar": "always",
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.defaultInterpreterPath": "",
     "editor.inlineSuggest.suppressSuggestions": true,
     "workbench.activityBar.location": "top",
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.editor.enablePreview": false
 }
