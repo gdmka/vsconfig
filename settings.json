@@ -389,16 +389,27 @@
     ],
     "editor.unicodeHighlight.nonBasicASCII": false,
     "window.zoomLevel": 0.5,
-    "tabby.config.telemetry": true,
-    "tabby.endpoint": "http://localhost:8080",
-    "tabby.settings.advanced": {
-        "inlineCompletion.triggerMode": "manual"
-    },
     "editor.inlineSuggest.showToolbar": "always",
     "python.defaultInterpreterPath": "",
     "editor.inlineSuggest.suppressSuggestions": true,
     "workbench.activityBar.location": "top",
     "git.confirmSync": false,
     "git.autofetch": true,
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "go.useLanguageServer": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "go.formatTool": "goimports",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        "ui.semanticTokens": true
+    }
 }
+
