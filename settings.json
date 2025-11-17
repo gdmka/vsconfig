@@ -52,37 +52,7 @@
     "editor.autoClosingOvertype": "never",
     "explorer.confirmDragAndDrop": false,
     "search.searchOnType": true,
-    "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#AB47BC",
-        "activityBar.activeBorder": "#AB47BC",
-        "list.activeSelectionForeground": "#AB47BC",
-        "list.inactiveSelectionForeground": "#AB47BC",
-        "list.highlightForeground": "#AB47BC",
-        "scrollbarSlider.activeBackground": "#AB47BC50",
-        "editorSuggestWidget.highlightForeground": "#ff1e00",
-        "editorSuggestWidget.focusHighlightForeground": "#0008ff",
-        "editorSuggestWidget.selectedForeground": "#fbff00",
-        "textLink.foreground": "#AB47BC",
-        "progressBar.background": "#AB47BC",
-        "pickerGroup.foreground": "#AB47BC",
-        "tab.activeBorder": "#AB47BC",
-        "notificationLink.foreground": "#AB47BC",
-        "editorWidget.resizeBorder": "#AB47BC",
-        "editorWidget.border": "#AB47BC",
-        "settings.modifiedItemIndicator": "#AB47BC",
-        "settings.headerForeground": "#AB47BC",
-        "panelTitle.activeBorder": "#AB47BC",
-        "breadcrumb.activeSelectionForeground": "#AB47BC",
-        "menu.selectionForeground": "#AB47BC",
-        "menubar.selectionForeground": "#AB47BC",
-        "editor.findMatchBorder": "#AB47BC",
-        "selection.background": "#AB47BC40",
-        "editor.inactiveSelectionBackground": "#f400003b",
-        "editor.selectionHighlightBackground": "#2002fff7",
-        "editor.wordHighlightBackground": "#2002fff7",
-        "editor.selectionBackground": "#f1f90d39",
-        "editor.findMatchBackground": "#e1ff02f7"
-    },
+    "workbench.colorCustomizations": {},
     "better-comments.tags": [
         {
             "tag": "!",
@@ -151,8 +121,6 @@
     "vsintellicode.sql.completionsEnabled": false,
     "terminal.integrated.flowControl": false,
     "errorLens.enabledDiagnosticLevels": [
-        "error",
-        "warning",
         "info"
     ],
     "python.analysis.diagnosticSeverityOverrides": {
@@ -363,7 +331,7 @@
     "editor.fontLigatures": false,
     "editor.fontSize": 13,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Palenight Theme",
     "security.workspace.trust.untrustedFiles": "open",
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.startupPrompt": "never",
@@ -392,7 +360,6 @@
     "editor.inlineSuggest.showToolbar": "always",
     "python.defaultInterpreterPath": "",
     "editor.inlineSuggest.suppressSuggestions": true,
-    "workbench.activityBar.location": "top",
     "git.confirmSync": false,
     "git.autofetch": true,
     "workbench.editor.enablePreview": false,
@@ -405,11 +372,26 @@
     "[go]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "explicit"
         }
     },
     "gopls": {
         "ui.semanticTokens": true
-    }
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "errorLens.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "roo-cline.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "roo-cline.deniedCommands": [],
+    "workbench.activityBar.location": "top",
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "kilo-code.deniedCommands": []
 }
-

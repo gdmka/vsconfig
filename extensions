@@ -8,7 +8,7 @@ dracula-theme.theme-dracula@2.24.3
 eamodio.gitlens@16.2.0
 editorconfig.editorconfig@0.16.4
 golang.go@0.46.1
-kilocode.kilo-code@4.74.0
+kilocode.kilo-code@4.119.5
 lebster.enough-with-the-palenight@1.0.6
 modan.disable-error-squiggles@0.0.1
 ms-azuretools.vscode-docker@1.27.0
@@ -25,6 +25,7 @@ nemesv.copy-file-name@1.2.0
 oderwat.indent-rainbow@8.3.1
 qezhu.gitlink@1.2.4
 redhat.vscode-yaml@1.15.0
+rooveterinaryinc.roo-cline@3.32.1
 sdras.night-owl@2.0.1
 shd101wyy.markdown-preview-enhanced@0.8.19
 tabbyml.vscode-tabby@1.14.0
@@ -36,4 +37,4 @@ visualstudioexptteam.vscodeintellicode@1.2.30
 whizkydee.material-palenight-theme@2.0.3
 wmaurer.vscode-jumpy@0.3.1
 zainchen.json@2.0.2
-Thu Oct  2 13:12:15 CEST 2025
+Mon Nov 17 20:34:20 CET 2025

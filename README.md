@@ -1,7 +1,3 @@
-## Preferred Version Version: 1.83.1
-```
-https://code.visualstudio.com/updates/v1_83
-```
 <br/>
 
 ## Default config file path
