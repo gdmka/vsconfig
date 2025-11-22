@@ -26,11 +26,8 @@
     "files.autoSaveDelay": 500,
     "git.enabled": true,
     "go.inferGopath": true,
-    "go.useLanguageServer": false,
     "workbench.startupEditor": "none",
     "window.newWindowDimensions": "inherit",
-    "omnisharp.enableRoslynAnalyzers": true,
-    "omnisharp.loggingLevel": "critical",
     "explorer.confirmDelete": false,
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
@@ -45,7 +42,6 @@
     "workbench.enableExperiments": false,
     "debug.inlineValues": "on",
     "workbench.list.horizontalScrolling": true,
-    "go.formatTool": "goimports",
     "rust-client.disableRustup": true,
     "rust-client.enableMultiProjectSetup": true,
     "workbench.settings.openDefaultKeybindings": true,
@@ -85,27 +81,13 @@
             "backgroundColor": "transparent"
         }
     ],
-    "python.formatting.autopep8Args": [
-        "max_line_length = 150"
-    ],
-    "python.linting.flake8CategorySeverity.W": "Error",
     "terminal.integrated.env.windows": {},
-    "python.linting.flake8Args": [
-        "--max-line-length=150",
-        "--ignore=F403,E128,E126,E123,E121, E203, E265,E501,N802,N803,N806,C901, W503"
-    ],
     "window.openFoldersInNewWindow": "on",
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
     "python.analysis.autoImportCompletions": true,
-    "python.autoComplete.addBrackets": true,
     "python.languageServer": "Pylance",
     "workbench.list.openMode": "singleClick",
-    "jupyter.debugJustMyCode": false,
-    "jupyter.jupyterCommandLineArguments": [],
-    "jupyter.allowLiveShare": false,
     "json.schemas": [],
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.editor.wrapTabs": true,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "search.mode": "newEditor",
@@ -118,14 +100,9 @@
         "HINT"
     ],
     "errorLens.messageTemplate": "$message",
-    "vsintellicode.sql.completionsEnabled": false,
-    "terminal.integrated.flowControl": false,
     "errorLens.enabledDiagnosticLevels": [
         "info"
     ],
-    "python.analysis.diagnosticSeverityOverrides": {
-        "reportDeprecated": "information"
-    },
     "errorLens.delay": 10,
     "search.showLineNumbers": true,
     "files.exclude": {
@@ -134,10 +111,7 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "todo-tree.highlights.enabled": false,
-    "todo-tree.general.statusBar": "tags",
     "editor.accessibilitySupport": "off",
-    "todo-tree.tree.buttons.scanMode": true,
     "python.experiments.enabled": false,
     "[markdown]": {
         "files.trimTrailingWhitespace": false
@@ -149,32 +123,16 @@
             "source.organizeImports": "explicit",
             "source.fixAll": "explicit"
         },
-        "ruff.organizeImports": true
     },
-    "isort.args": [
-        "--profile",
-        "black"
-    ],
     "files.insertFinalNewline": true,
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]"
-    ],
     "ruff.nativeServer": "on",
-    "ruff.lineLength": 120,
+    "ruff.lineLength": 150,
     "ruff.lint.select": [
         "C",
         "E",
         "F",
         "W"
     ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "jupyter.useNotebookEditor": false,
     "redhat.telemetry.enabled": false,
     "editor.guides.indentation": true,
     "rust.crate_blacklist": [],
@@ -324,22 +282,14 @@
     "workbench.editor.scrollToSwitchTabs": true,
     "workbench.editor.highlightModifiedTabs": true,
     "errorLens.borderRadius": "5px",
-    "gitlens.advanced.messages": {
-        "suppressRebaseSwitchToTextWarning": true
-    },
     "editor.formatOnSave": true,
     "editor.fontLigatures": false,
     "editor.fontSize": 13,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Palenight Theme",
+    "workbench.colorTheme": "Night Owl (No Italics)",
     "security.workspace.trust.untrustedFiles": "open",
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.startupPrompt": "never",
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.logLevel": "Warning",
-    "gitlens.views.searchAndCompare.files.layout": "list",
-    "gitlens.views.searchAndCompare.avatars": false,
     "errorLens.lintFilePaths": {
         "eslint": [
             "**/*.eslintrc.{js,cjs,yaml,yml,json}",
@@ -352,9 +302,6 @@
             "**/*package.json"
         ]
     },
-    "flake8.args": [
-        "--max-line-length=150"
-    ],
     "editor.unicodeHighlight.nonBasicASCII": false,
     "window.zoomLevel": 0.5,
     "editor.inlineSuggest.showToolbar": "always",
@@ -393,5 +340,10 @@
         "git diff",
         "git show"
     ],
-    "kilo-code.deniedCommands": []
+    "kilo-code.deniedCommands": [],
+    "chat.agentSessionsViewLocation": "disabled",
+    "chat.mcp.access": "none",
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "chat.disableAIFeatures": true
 }
