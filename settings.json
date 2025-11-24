@@ -347,5 +347,6 @@
     "chat.mcp.access": "none",
     "telemetry.editStats.enabled": false,
     "telemetry.feedback.enabled": false,
+    "chat.disableAIFeatures": true,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
 }
