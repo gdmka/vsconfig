@@ -338,12 +338,14 @@
     "kilo-code.allowedCommands": [
         "git log",
         "git diff",
-        "git show"
+        "git show",
+        "mkdir",
+        "git status"
     ],
     "kilo-code.deniedCommands": [],
     "chat.agentSessionsViewLocation": "disabled",
     "chat.mcp.access": "none",
     "telemetry.editStats.enabled": false,
     "telemetry.feedback.enabled": false,
-    "chat.disableAIFeatures": true
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
 }
