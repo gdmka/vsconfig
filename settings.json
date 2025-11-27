@@ -349,4 +349,5 @@
     "telemetry.feedback.enabled": false,
     "chat.disableAIFeatures": true,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.editor.showTabs": "none",
 }
