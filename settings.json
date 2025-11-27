@@ -303,7 +303,7 @@
         ]
     },
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 1.1,
     "editor.inlineSuggest.showToolbar": "always",
     "python.defaultInterpreterPath": "",
     "editor.inlineSuggest.suppressSuggestions": true,
